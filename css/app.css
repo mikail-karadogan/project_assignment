@@ -25,7 +25,9 @@
 .content-page__photo__item {
   width: 100%;
   border-radius: 10px 0px 0px 10px;
-  height: 100%;
+  min-height: 433px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .content-page__right-section {
   height: 100%;
