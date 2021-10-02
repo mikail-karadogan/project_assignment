@@ -126,6 +126,13 @@ $content-text-description-size : 400;
     .text-right-30 {
         margin-right: 10px;
     }
+    .content-page {
+        &__photo {
+            &__item {
+                border-radius: 10px 10px 0px 0px;
+            }
+        }   
+    }
 }
 @media(max-width:500px) {
     .navbar {

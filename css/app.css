@@ -156,6 +156,10 @@
   .text-right-30 {
     margin-right: 10px;
   }
+
+  .content-page__photo__item {
+    border-radius: 10px 10px 0px 0px;
+  }
 }
 @media (max-width: 500px) {
   .navbar .navbar-nav .nav-item {
